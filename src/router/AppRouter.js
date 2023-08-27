@@ -1,11 +1,9 @@
 import React from "react";
-import { Switch, Redirect, withRouter, matchPath } from "react-router-dom";
+import { Switch, Redirect, withRouter } from "react-router-dom";
 import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
 import LoginPage from "../pages/Login/LoginPage";
 import ForgetPasswordPage from "../pages/ForgetPassword/ForgetPasswordPage";
-import PasswordChangeForm from "../pages/PasswordChangeForm/PasswordChangeForm";
-import UserPage from "../pages/User/UserPage";
 import HomePage from "../pages/Home/HomePage";
 import AboutPage from "../pages/About/AboutPage";
 import ContactPage from "../pages/Contact/ContactPage";
