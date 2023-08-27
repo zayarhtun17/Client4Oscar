@@ -6,6 +6,7 @@ import LoginPage from "../pages/Login/LoginPage";
 import ForgetPasswordPage from "../pages/ForgetPassword/ForgetPasswordPage";
 import HomePage from "../pages/Home/HomePage";
 import AboutPage from "../pages/About/AboutPage";
+import ArtistPage from "../pages/Artist/ArtistPage";
 import ContactPage from "../pages/Contact/ContactPage";
 import CheckoutPage from "../pages/Checkout/CheckoutPage";
 import CreateAccountPage from "../pages/CreateAccount/CreateAccountPage";
@@ -27,6 +28,7 @@ const AppRouter = withRouter(({ location }) => {
         <PublicRoute path="/create/account" component={CreateAccountPage} />
         <PublicRoute path="/cart" component={ShoppingCartPage} />
         <PublicRoute path="/about" component={AboutPage} />
+        <PublicRoute path="/artist" component={ArtistPage}/>
         <PublicRoute path="/contact" component={ContactPage} />
         <PrivateRoute path="/checkout" component={CheckoutPage} />
         <PublicRoute path="/payment/cancel" component={PaymentCancelPage} />
