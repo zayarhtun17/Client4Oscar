@@ -97,42 +97,48 @@ const Header = () => {
         </div>
 
         {/* <!-- Header Mobile --> */}
-        <div class="wrap-header-mobile">
+        <div class="wrap-header-mobile flex-c-m">
           {/* <!-- Logo moblie -->		 */}
-          <div class="logo-mobile">
-            <a href="index.html">
-              <p class="mtext-103 cl2">
-                OSCAR D.CHAVARRIA
-              </p>
-            </a>
+          <div class="row">
+          <div class="col-sm-12 p-b-20 p-t-20">
+            <div class="logo-mobile">
+              <a href="index.html">
+                <p class="mtext-103 cl2 text-center">
+                  OSCAR D.CHAVARRIA
+                </p>
+              </a>
+            </div>
+				  </div>
           </div>
 
           {/* <!-- Icon header --> */}
-          <div class="wrap-icon-header flex-w flex-r-m h-full m-r-15">
-            <div class="flex-c-m h-full p-r-10">
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search" onClick={searchModal}>
-              <i class="zmdi zmdi-search"></i>
-            </div>
-            </div>
-
-            <div class="flex-c-m h-full p-lr-10 bor5">
-              <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="3">
-                <i class="zmdi zmdi-shopping-cart"></i>
+          <div class="col-sm-12">
+            <div class="wrap-icon-header flex-w flex-c-m h-full m-r-15">
+              <div class="flex-c-m h-full p-r-10">
+              <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 js-show-modal-search" onClick={searchModal}>
+                <i class="zmdi zmdi-search"></i>
               </div>
-            </div>
-
-            <div class="flex-c-m h-full p-lr-10 bor5">
-              <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11">
-                <a href="login.html" alt="Login"><i class="zmdi zmdi-account-o text-dark"></i></a>
               </div>
-            </div>
-          </div>
 
-          {/* <!-- Button show menu --> */}
-          <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
+              <div class="flex-c-m h-full p-lr-10 bor5">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="3">
+                  <i class="zmdi zmdi-shopping-cart"></i>
+                </div>
+              </div>
+
+              <div class="flex-c-m h-full p-lr-10 bor5">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11">
+                  <a href="login.html" alt="Login"><i class="zmdi zmdi-account-o text-dark"></i></a>
+                </div>
+              </div>
+              <div class="flex-c-m h-full p-lr-10">
+							<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</div>
+						</div>
+            </div>
           </div>
         </div>
 
